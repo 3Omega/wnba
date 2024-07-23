@@ -1,20 +1,16 @@
 {
-  "name": "myapp",
+  "name": "wnba-api",
   "version": "1.0.0",
-  "description": "",
+  "description": "A REST API for WNBA play-by-play and schedule data using Express and SQLite",
   "main": "main.js",
-  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "https-proxy-agent": "^7.0.2",
-    "node-fetch": "^3.3.2",
-    "sqlite3": "^5.1.6",
-    "axios": "^0.24.0",
-    "ejs":"^3.1.9",
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "sqlite3": "^6.1.1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
   }
 }
